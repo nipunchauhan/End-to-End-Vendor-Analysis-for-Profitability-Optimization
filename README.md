@@ -86,7 +86,7 @@ This analysis uncovered several critical, data-driven insights:
 📦 Bulk Purchasing Impact: Confirmed that bulk purchasing is highly effective, with large orders achieving up to a 72% reduction in unit cost compared to small orders.
 
 ## 📂 Repository Structure
-
+'''
 ├── 📄 README.md
 ├── data/
 │   ├── begin_inventory.csv
@@ -106,7 +106,7 @@ This analysis uncovered several critical, data-driven insights:
 │   └── Vendor Performance Power BI Dashboard.pdf
 └── report/
     └── Project Report.pdf
-
+'''
 
 data/: Contains sample CSV files (100 rows each) representing the raw data sources.
 

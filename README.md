@@ -2,9 +2,9 @@
 This project addresses a critical business challenge in the retail and wholesale industry: optimizing profitability through effective inventory and sales management. The analysis aims to prevent losses that arise from inefficient pricing strategies, poor inventory turnover, and excessive vendor dependency.
 
 📖 Table of Contents
--> Project Overview
+* Project Overview
 
--> Business Problem & Objectives
+Business Problem & Objectives
 
 -> 🛠️ Tech Stack
 

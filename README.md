@@ -89,21 +89,21 @@ This analysis uncovered several critical, data-driven insights:
 
 ├── 📄 README.md
 ├── data/
-│   ├── begin_inventory.csv
-│   ├── end_inventory.csv
-│   ├── purchases.csv
-│   ├── purchase_prices.csv
-│   ├── sales.csv
-│   └── vendor_invoice.csv
+│ ├── begin_inventory.csv
+│ ├── end_inventory.csv
+│ ├── purchases.csv
+│ ├── purchase_prices.csv
+│ ├── sales.csv
+│ └── vendor_invoice.csv
 ├── scripts/
-│   ├── ingestion_db.py
-│   └── get_vendor_summary.py
+│ ├── ingestion_db.py
+│ └── get_vendor_summary.py
 ├── notebooks/
-│   ├── Exploratory Data Analysis.ipynb
-│   └── Vendor Performance Analysis.ipynb
+│ ├── Exploratory Data Analysis.ipynb
+│ └── Vendor Performance Analysis.ipynb
 ├── dashboard/
-│   ├── Vendor Performance Power BI Dashboard.pbix
-│   └── Vendor Performance Power BI Dashboard.pdf
+│ ├── Vendor Performance Power BI Dashboard.pbix
+│ └── Vendor Performance Power BI Dashboard.pdf
 └── report/
 └── Project Report.pdf
 

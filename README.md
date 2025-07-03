@@ -1,7 +1,5 @@
 # End-to-End-Vendor-Analysis-for-Profitability-Optimization
 This project addresses a critical business challenge in the retail and wholesale industry: optimizing profitability through effective inventory and sales management. The analysis aims to prevent losses that arise from inefficient pricing strategies, poor inventory turnover, and excessive vendor dependency.
-Vendor Performance & Profitability Analysis for Retail
-(Note: Replace the placeholder path with the actual path to your dashboard screenshot in the repository)
 
 📖 Table of Contents
 Project Overview
@@ -56,13 +54,13 @@ Phase 1: ETL & Data Warehousing
 
 Ingestion: Developed a scalable Python script (ingestion_db.py) to ingest multiple large CSVs into a central SQLite database. The script includes robust logging for monitoring and error tracking.
 
-Aggregation & Optimization: Created a second script (get_vendor_summary.py) to execute a complex, optimized SQL query. This query joins and pre-aggregates data from multiple tables, transforming over 10 million transactional records into a clean, analysis-ready summary table of ~10,000 records. This step was critical for performance and analytical efficiency.
+Aggregation & Optimization: Created a second script (get_vendor_summary.py) to execute a complex, optimized SQL query. This query joins and pre-aggregates data from multiple tables, transforming over 20 million transactional records into a clean, analysis-ready summary table of ~10,000 records. This step was critical for performance and analytical efficiency.
 
 Phase 2: Exploratory Data Analysis (EDA) & Statistical Validation
 
-Data Exploration: Used a Jupyter Notebook (EDA_SQL.ipynb) to perform initial exploration directly on the database tables using SQL to understand relationships and data quality.
+Data Exploration: Used a Jupyter Notebook (Exploratory Data Analysis.ipynb) to perform initial exploration directly on the database tables using SQL to understand relationships and data quality.
 
-In-depth Analysis: In a second notebook (Vendor_Performance_Analysis.ipynb), conducted a deep-dive analysis on the final aggregated table. This included:
+In-depth Analysis: In a second notebook (Vendor Performance Analysis.ipynb), conducted a deep-dive analysis on the final aggregated table. This included:
 
 Feature Engineering: Created new metrics like Gross Profit, Profit Margin, and Stock Turnover Ratio.
 
@@ -72,9 +70,9 @@ Hypothesis Testing: Used a T-test to statistically validate the difference in pr
 
 Phase 3: Dashboarding & Reporting
 
-Interactive Dashboard: Developed a dynamic Power BI dashboard (Vendor_Performance_Dashboard.pbix) to present findings. The dashboard includes KPIs, interactive charts, and drill-down capabilities for stakeholder exploration.
+Interactive Dashboard: Developed a dynamic Power BI dashboard (Vendor Performance Power BI Dashboard.pbix) to present findings. The dashboard includes KPIs, interactive charts, and drill-down capabilities for stakeholder exploration.
 
-Final Report: Compiled a detailed PDF report (Project_Report.pdf) summarizing the methodology, key findings, and strategic business recommendations.
+Final Report: Compiled a detailed PDF report (Project Report.pdf) summarizing the methodology, key findings, and strategic business recommendations.
 
 📊 Key Findings & Insights
 This analysis uncovered several critical, data-driven insights:
@@ -88,7 +86,7 @@ This analysis uncovered several critical, data-driven insights:
 📦 Bulk Purchasing Impact: Confirmed that bulk purchasing is highly effective, with large orders achieving up to a 72% reduction in unit cost compared to small orders.
 
 📂 Repository Structure
-.
+
 ├── 📄 README.md
 ├── data/
 │   ├── begin_inventory.csv
@@ -136,7 +134,7 @@ Microsoft Power BI Desktop (for interacting with the .pbix file).
 Steps
 Clone the repository:
 
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/nipunchauhan/your-repo-name.git
 cd your-repo-name
 
 Run the ETL Pipeline:

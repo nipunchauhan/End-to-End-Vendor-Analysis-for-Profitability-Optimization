@@ -107,6 +107,7 @@ This analysis uncovered several critical, data-driven insights:
 └── report/
 └── Project Report.pdf
 
+
 data/: Contains sample CSV files (100 rows each) representing the raw data sources.
 
 scripts/: Contains the Python scripts for the ETL pipeline.

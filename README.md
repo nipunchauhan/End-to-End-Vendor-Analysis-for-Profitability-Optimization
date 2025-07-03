@@ -2,21 +2,21 @@
 This project addresses a critical business challenge in the retail and wholesale industry: optimizing profitability through effective inventory and sales management. The analysis aims to prevent losses that arise from inefficient pricing strategies, poor inventory turnover, and excessive vendor dependency.
 
 📖 Table of Contents
-Project Overview
+-> Project Overview
 
-Business Problem & Objectives
+-> Business Problem & Objectives
 
-🛠️ Tech Stack
+-> 🛠️ Tech Stack
 
-⚙️ Project Workflow
+-> ⚙️ Project Workflow
 
-📊 Key Findings & Insights
+-> 📊 Key Findings & Insights
 
-📂 Repository Structure
+-> 📂 Repository Structure
 
-🚀 How to Run This Project
+-> 🚀 How to Run This Project
 
-📞 Contact
+-> 📞 Contact
 
 🌐 Project Overview
 This repository contains a comprehensive, end-to-end data analytics project that mirrors a real-world business scenario in the retail and wholesale industry. The project starts with raw, multi-source transactional data and progresses through ETL, data warehousing, in-depth analysis, statistical validation, and finally, the creation of an interactive business intelligence dashboard. The primary goal is to analyze vendor and brand performance to uncover actionable insights that drive profitability and operational efficiency.
@@ -159,6 +159,7 @@ Open the dashboard/Vendor_Performance_Dashboard.pbix file in Power BI Desktop to
 
 Alternatively, view the dashboard/Vendor_Performance_Dashboard.pdf for a static version.
 
-Contact:
+###📞 Contact
+
 Nipun Chauhan
 Email: nipunct@gmail.com

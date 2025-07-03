@@ -138,6 +138,7 @@ Steps
 Clone the repository:
 
 git clone https://github.com/nipunchauhan/End-to-End-Vendor-Analysis-for-Profitability-Optimization.git
+
 cd End-to-End-Vendor-Analysis-for-Profitability-Optimization
 
 Run the ETL Pipeline:

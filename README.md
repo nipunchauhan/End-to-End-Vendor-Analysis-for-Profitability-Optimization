@@ -88,24 +88,23 @@ This analysis uncovered several critical, data-driven insights:
 ## 📂 Repository Structure
 <pre>
 ├── 📄 README.md
-├── data/
+├── Data/
 │   ├── begin_inventory.csv
 │   ├── end_inventory.csv
 │   ├── purchases.csv
 │   ├── purchase_prices.csv
 │   ├── sales.csv
 │   └── vendor_invoice.csv
-├── scripts/
+├── Python Scripts/
 │   ├── ingestion_db.py
 │   └── get_vendor_summary.py
-├── notebooks/
+├── Jupyter Notebooks/
 │   ├── Exploratory Data Analysis.ipynb
 │   └── Vendor Performance Analysis.ipynb
-├── dashboard/
+├── Power BI Dashboard/
 │   ├── Vendor Performance Power BI Dashboard.pbix
 │   └── Vendor Performance Power BI Dashboard.pdf
-└── report/
-    └── Project Report.pdf
+└── Project Report
 </pre>
 
 data/: Contains sample CSV files (100 rows each) representing the raw data sources.
@@ -138,7 +137,7 @@ Clone the repository:
 git clone https://github.com/nipunchauhan/End-to-End-Vendor-Analysis-for-Profitability-Optimization.git <br> cd End-to-End-Vendor-Analysis-for-Profitability-Optimization
 
 Run the ETL Pipeline:
-Execute the Python scripts from your terminal in the following order to create and populate the SQLite database (inventory.db).
+Execute the Python scripts from your terminal in the following order to create and populate the SQLite database (inventory.db), nearly 2GB(size).
 
 ### Step 1: Ingest raw data into the database
 python scripts/ingestion_db.py
@@ -149,13 +148,9 @@ python scripts/get_vendor_summary.py
 Explore the Analysis:
 Launch Jupyter Notebook to explore the analysis process.
 
-jupyter notebook
-
-Navigate to the notebooks/ directory and open EDA_SQL.ipynb and Vendor_Performance_Analysis.ipynb. You can run the cells to see the step-by-step analysis.
-
 View the Dashboard:
 
-Open the dashboard/Vendor_Performance_Dashboard.pbix file in Power BI Desktop to interact with the full dashboard.
+Open the dashboard/Vendor Performance Dashboard.pbix file in Power BI Desktop to interact with the full dashboard.
 
 Alternatively, view the dashboard/Vendor_Performance_Dashboard.pdf for a static version.
 

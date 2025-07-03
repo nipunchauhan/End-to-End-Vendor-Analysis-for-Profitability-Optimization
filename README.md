@@ -88,7 +88,7 @@ This analysis uncovered several critical, data-driven insights:
 ## 📂 Repository Structure
 <pre>
 ├── 📄 README.md
-├── Data/
+├── Data (Samples)/
 │   ├── begin_inventory.csv
 │   ├── end_inventory.csv
 │   ├── purchases.csv

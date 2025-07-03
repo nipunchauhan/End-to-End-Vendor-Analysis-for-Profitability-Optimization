@@ -111,7 +111,7 @@ This analysis uncovered several critical, data-driven insights:
 
 ├── notebooks/
 
-│   ├── Exploratory Data Analysis.ipynb.ipynb
+│   ├── Exploratory Data Analysis.ipynb
 
 │   └── Vendor Performance Analysis.ipynb
 

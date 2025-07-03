@@ -99,13 +99,13 @@ This analysis uncovered several critical, data-driven insights:
 │   ├── ingestion_db.py
 │   └── get_vendor_summary.py
 ├── notebooks/
-│   ├── EDA_SQL.ipynb
-│   └── Vendor_Performance_Analysis.ipynb
+│   ├── Exploratory Data Analysis.ipynb.ipynb
+│   └── Vendor Performance Analysis.ipynb
 ├── dashboard/
-│   ├── Vendor_Performance_Dashboard.pbix
-│   └── Vendor_Performance_Dashboard.pdf
+│   ├── Vendor Performance Power BI Dashboard.pbix
+│   └── Vendor Performance Power BI Dashboard.pdf
 └── report/
-    └── Project_Report.pdf
+    └── Project Report.pdf
 
 data/: Contains sample CSV files (100 rows each) representing the raw data sources.
 
@@ -134,16 +134,16 @@ Microsoft Power BI Desktop (for interacting with the .pbix file).
 Steps
 Clone the repository:
 
-git clone https://github.com/nipunchauhan/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/nipunchauhan/End-to-End-Vendor-Analysis-for-Profitability-Optimization.git
+cd End-to-End-Vendor-Analysis-for-Profitability-Optimization
 
 Run the ETL Pipeline:
 Execute the Python scripts from your terminal in the following order to create and populate the SQLite database (inventory.db).
 
-# Step 1: Ingest raw data into the database
+### Step 1: Ingest raw data into the database
 python scripts/ingestion_db.py
 
-# Step 2: Create the final aggregated summary table
+### Step 2: Create the final aggregated summary table
 python scripts/get_vendor_summary.py
 
 Explore the Analysis:
@@ -159,5 +159,6 @@ Open the dashboard/Vendor_Performance_Dashboard.pbix file in Power BI Desktop to
 
 Alternatively, view the dashboard/Vendor_Performance_Dashboard.pdf for a static version.
 
-📞 Contact
+Contact:
 Nipun Chauhan
+Email: nipunct@gmail.com

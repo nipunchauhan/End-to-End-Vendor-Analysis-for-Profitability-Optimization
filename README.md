@@ -156,5 +156,6 @@ Alternatively, view the dashboard/Vendor_Performance_Dashboard.pdf for a static 
 
 ## 📞 Contact
 
-Nipun Chauhan
-Email: nipunct@gmail.com
+Nipun Chauhan <br>
+Email: nipunct@gmail.com <br>
+Phone: (469) 386-8456

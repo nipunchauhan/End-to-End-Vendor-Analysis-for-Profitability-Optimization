@@ -137,9 +137,7 @@ Microsoft Power BI Desktop (for interacting with the .pbix file).
 Steps
 Clone the repository:
 
-git clone https://github.com/nipunchauhan/End-to-End-Vendor-Analysis-for-Profitability-Optimization.git
-
-cd End-to-End-Vendor-Analysis-for-Profitability-Optimization
+git clone https://github.com/nipunchauhan/End-to-End-Vendor-Analysis-for-Profitability-Optimization.git <br> cd End-to-End-Vendor-Analysis-for-Profitability-Optimization
 
 Run the ETL Pipeline:
 Execute the Python scripts from your terminal in the following order to create and populate the SQLite database (inventory.db).

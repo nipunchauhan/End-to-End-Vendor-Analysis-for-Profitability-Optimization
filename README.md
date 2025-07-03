@@ -159,7 +159,7 @@ Open the dashboard/Vendor_Performance_Dashboard.pbix file in Power BI Desktop to
 
 Alternatively, view the dashboard/Vendor_Performance_Dashboard.pdf for a static version.
 
-###📞 Contact
+### 📞 Contact
 
 Nipun Chauhan
 Email: nipunct@gmail.com

@@ -1,42 +1,42 @@
 # End-to-End-Vendor-Analysis-for-Profitability-Optimization
 This project addresses a critical business challenge in the retail and wholesale industry: optimizing profitability through effective inventory and sales management. The analysis aims to prevent losses that arise from inefficient pricing strategies, poor inventory turnover, and excessive vendor dependency.
 
-📖 Table of Contents
+## 📖 Table of Contents
 * Project Overview
 
-Business Problem & Objectives
+* Business Problem & Objectives
 
--> 🛠️ Tech Stack
+* 🛠️ Tech Stack
 
--> ⚙️ Project Workflow
+* ⚙️ Project Workflow
 
--> 📊 Key Findings & Insights
+* 📊 Key Findings & Insights
 
--> 📂 Repository Structure
+* 📂 Repository Structure
 
--> 🚀 How to Run This Project
+* 🚀 How to Run This Project
 
--> 📞 Contact
+* 📞 Contact
 
-🌐 Project Overview
+## 🌐 Project Overview
 This repository contains a comprehensive, end-to-end data analytics project that mirrors a real-world business scenario in the retail and wholesale industry. The project starts with raw, multi-source transactional data and progresses through ETL, data warehousing, in-depth analysis, statistical validation, and finally, the creation of an interactive business intelligence dashboard. The primary goal is to analyze vendor and brand performance to uncover actionable insights that drive profitability and operational efficiency.
 
-🎯 Business Problem & Objectives
+## 🎯 Business Problem & Objectives
 A retail/wholesale company is facing challenges with profitability due to inefficient pricing, poor inventory turnover, and over-reliance on a few key vendors. This analysis was commissioned to address these issues.
 
 The primary objectives are:
 
-Identify Underperforming Brands: Find brands with low sales but high profit margins that are candidates for promotional and pricing adjustments.
++ Identify Underperforming Brands: Find brands with low sales but high profit margins that are candidates for promotional and pricing adjustments.
 
-Pinpoint Top Vendors: Determine which vendors contribute most significantly to sales and gross profit.
++ Pinpoint Top Vendors: Determine which vendors contribute most significantly to sales and gross profit.
 
-Analyze Bulk Purchasing Impact: Assess how purchasing in bulk affects unit costs to optimize procurement strategies.
++ Analyze Bulk Purchasing Impact: Assess how purchasing in bulk affects unit costs to optimize procurement strategies.
 
-Evaluate Inventory Turnover: Identify vendors with slow-moving products to reduce holding costs and improve stock efficiency.
++ Evaluate Inventory Turnover: Identify vendors with slow-moving products to reduce holding costs and improve stock efficiency.
 
-Investigate Profitability Variance: Statistically compare the profit margins of high-performing vs. low-performing vendors.
++ Investigate Profitability Variance: Statistically compare the profit margins of high-performing vs. low-performing vendors.
 
-🛠️ Tech Stack
+##  🛠️ Tech Stack
 Data Ingestion & Transformation (ETL): Python (Pandas, SQLAlchemy)
 
 Database: SQLite
@@ -47,16 +47,16 @@ Data Visualization: Matplotlib, Seaborn, Power BI
 
 Business Intelligence & Dashboarding: Power BI, DAX
 
-⚙️ Project Workflow
+## ⚙️ Project Workflow
 The project was executed in three distinct phases, creating a robust and reproducible pipeline from raw data to final insights.
 
-Phase 1: ETL & Data Warehousing
+### Phase 1: ETL & Data Warehousing
 
 Ingestion: Developed a scalable Python script (ingestion_db.py) to ingest multiple large CSVs into a central SQLite database. The script includes robust logging for monitoring and error tracking.
 
 Aggregation & Optimization: Created a second script (get_vendor_summary.py) to execute a complex, optimized SQL query. This query joins and pre-aggregates data from multiple tables, transforming over 20 million transactional records into a clean, analysis-ready summary table of ~10,000 records. This step was critical for performance and analytical efficiency.
 
-Phase 2: Exploratory Data Analysis (EDA) & Statistical Validation
+### Phase 2: Exploratory Data Analysis (EDA) & Statistical Validation
 
 Data Exploration: Used a Jupyter Notebook (Exploratory Data Analysis.ipynb) to perform initial exploration directly on the database tables using SQL to understand relationships and data quality.
 
@@ -68,13 +68,13 @@ Visualization: Generated plots to identify trends, outliers, and correlations.
 
 Hypothesis Testing: Used a T-test to statistically validate the difference in profit margins between vendor groups.
 
-Phase 3: Dashboarding & Reporting
+### Phase 3: Dashboarding & Reporting
 
 Interactive Dashboard: Developed a dynamic Power BI dashboard (Vendor Performance Power BI Dashboard.pbix) to present findings. The dashboard includes KPIs, interactive charts, and drill-down capabilities for stakeholder exploration.
 
 Final Report: Compiled a detailed PDF report (Project Report.pdf) summarizing the methodology, key findings, and strategic business recommendations.
 
-📊 Key Findings & Insights
+## 📊 Key Findings & Insights
 This analysis uncovered several critical, data-driven insights:
 
 💰 Unsold Capital: Identified $2.7 million in capital locked in unsold inventory, highlighting a major opportunity for inventory optimization.
@@ -85,7 +85,7 @@ This analysis uncovered several critical, data-driven insights:
 
 📦 Bulk Purchasing Impact: Confirmed that bulk purchasing is highly effective, with large orders achieving up to a 72% reduction in unit cost compared to small orders.
 
-📂 Repository Structure
+## 📂 Repository Structure
 
 ├── 📄 README.md
 ├── data/
@@ -117,7 +117,7 @@ dashboard/: Contains the final Power BI dashboard file and a PDF export for easy
 
 report/: Contains the final, detailed project report.
 
-🚀 How to Run This Project
+## 🚀 How to Run This Project
 Follow these steps to replicate the analysis on your local machine.
 
 Prerequisites
@@ -159,7 +159,7 @@ Open the dashboard/Vendor_Performance_Dashboard.pbix file in Power BI Desktop to
 
 Alternatively, view the dashboard/Vendor_Performance_Dashboard.pdf for a static version.
 
-### 📞 Contact
+## 📞 Contact
 
 Nipun Chauhan
 Email: nipunct@gmail.com

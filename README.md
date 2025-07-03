@@ -87,7 +87,6 @@ This analysis uncovered several critical, data-driven insights:
 
 ## 📂 Repository Structure
 
-<pre>
 ├── 📄 README.md
 ├── data/
 │   ├── begin_inventory.csv
@@ -107,7 +106,6 @@ This analysis uncovered several critical, data-driven insights:
 │   └── Vendor Performance Power BI Dashboard.pdf
 └── report/
     └── Project Report.pdf
-</pre>
 
 
 data/: Contains sample CSV files (100 rows each) representing the raw data sources.

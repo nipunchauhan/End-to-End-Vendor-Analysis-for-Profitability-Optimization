@@ -107,15 +107,15 @@ This analysis uncovered several critical, data-driven insights:
 └── Project Report
 </pre>
 
-data/: Contains sample CSV files (100 rows each) representing the raw data sources.
+**_Data:_** Contains sample CSV files (100 rows each) representing the raw data sources.
 
-scripts/: Contains the Python scripts for the ETL pipeline.
+**_Scripts:_**Contains the Python scripts for the ETL pipeline.
 
-notebooks/: Contains the Jupyter Notebooks used for data exploration and analysis.
+**_Notebooks:_** Contains the Jupyter Notebooks used for data exploration and analysis.
 
-dashboard/: Contains the final Power BI dashboard file and a PDF export for easy viewing.
+_**Dashboard:**_ Contains the final Power BI dashboard file and a PDF export for easy viewing.
 
-report/: Contains the final, detailed project report.
+_**Report:**_ Contains the final, detailed project report.
 
 ## 🚀 How to Run This Project
 Follow these steps to replicate the analysis on your local machine.

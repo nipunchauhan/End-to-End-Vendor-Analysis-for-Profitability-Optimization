@@ -109,7 +109,7 @@ This analysis uncovered several critical, data-driven insights:
 
 **_Data:_** Contains sample CSV files (100 rows each) representing the raw data sources.
 
-**_Scripts:_**Contains the Python scripts for the ETL pipeline.
+**_Scripts:_** Contains the Python scripts for the ETL pipeline.
 
 **_Notebooks:_** Contains the Jupyter Notebooks used for data exploration and analysis.
 

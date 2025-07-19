@@ -37,42 +37,42 @@ The primary objectives are:
 + Investigate Profitability Variance: Statistically compare the profit margins of high-performing vs. low-performing vendors.
 
 ##  🛠️ Tech Stack
-Data Ingestion & Transformation (ETL): Python (Pandas, SQLAlchemy)
+* Data Ingestion & Transformation (ETL): Python (Pandas, SQLAlchemy)
 
-Database: SQLite
+* Database: SQLite
 
-Data Analysis & Statistics: Python (NumPy, SciPy, Statsmodels), Jupyter Notebook
+* Data Analysis & Statistics: Python (NumPy, SciPy, Statsmodels), Jupyter Notebook
 
-Data Visualization: Matplotlib, Seaborn, Power BI
+* Data Visualization: Matplotlib, Seaborn, Power BI
 
-Business Intelligence & Dashboarding: Power BI, DAX
+* Business Intelligence & Dashboarding: Power BI, DAX
 
 ## ⚙️ Project Workflow
 The project was executed in three distinct phases, creating a robust and reproducible pipeline from raw data to final insights.
 
 ### Phase 1: ETL & Data Warehousing
 
-Ingestion: Developed a scalable Python script (ingestion_db.py) to ingest multiple large CSVs into a central SQLite database. The script includes robust logging for monitoring and error tracking.
+* Ingestion: Developed a scalable Python script (ingestion_db.py) to ingest multiple large CSVs into a central SQLite database. The script includes robust logging for monitoring and error tracking.
 
-Aggregation & Optimization: Created a second script (get_vendor_summary.py) to execute a complex, optimized SQL query. This query joins and pre-aggregates data from multiple tables, transforming over 20 million transactional records into a clean, analysis-ready summary table of ~10,000 records. This step was critical for performance and analytical efficiency.
+* Aggregation & Optimization: Created a second script (get_vendor_summary.py) to execute a complex, optimized SQL query. This query joins and pre-aggregates data from multiple tables, transforming over 20 million transactional records into a clean, analysis-ready summary table of ~10,000 records. This step was critical for performance and analytical efficiency.
 
 ### Phase 2: Exploratory Data Analysis (EDA) & Statistical Validation
 
-Data Exploration: Used a Jupyter Notebook (Exploratory Data Analysis.ipynb) to perform initial exploration directly on the database tables using SQL to understand relationships and data quality.
+* Data Exploration: Used a Jupyter Notebook (Exploratory Data Analysis.ipynb) to perform initial exploration directly on the database tables using SQL to understand relationships and data quality.
 
-In-depth Analysis: In a second notebook (Vendor Performance Analysis.ipynb), conducted a deep-dive analysis on the final aggregated table. This included:
+* In-depth Analysis: In a second notebook (Vendor Performance Analysis.ipynb), conducted a deep-dive analysis on the final aggregated table. This included:
 
-Feature Engineering: Created new metrics like Gross Profit, Profit Margin, and Stock Turnover Ratio.
+* Feature Engineering: Created new metrics like Gross Profit, Profit Margin, and Stock Turnover Ratio.
 
-Visualization: Generated plots to identify trends, outliers, and correlations.
+* Visualization: Generated plots to identify trends, outliers, and correlations.
 
-Hypothesis Testing: Used a T-test to statistically validate the difference in profit margins between vendor groups.
+* Hypothesis Testing: Used a T-test to statistically validate the difference in profit margins between vendor groups.
 
 ### Phase 3: Dashboarding & Reporting
 
-Interactive Dashboard: Developed a dynamic Power BI dashboard (Vendor Performance Power BI Dashboard.pbix) to present findings. The dashboard includes KPIs, interactive charts, and drill-down capabilities for stakeholder exploration.
+* Interactive Dashboard: Developed a dynamic Power BI dashboard (Vendor Performance Power BI Dashboard.pbix) to present findings. The dashboard includes KPIs, interactive charts, and drill-down capabilities for stakeholder exploration.
 
-Final Report: Compiled a detailed PDF report (Project Report.pdf) summarizing the methodology, key findings, and strategic business recommendations.
+* Final Report: Compiled a detailed PDF report (Project Report.pdf) summarizing the methodology, key findings, and strategic business recommendations.
 
 ## 📊 Key Findings & Insights
 This analysis uncovered several critical, data-driven insights:
